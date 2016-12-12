@@ -7,7 +7,7 @@ O teste consiste em duas etapas:
 
 Você deve estruturar a landing page que está na pasta "LAYOUT" utilizando HTML5, CSS3 e Javascript atentando para os seguintes itens:
 
-1 - A página deve ser responsiva (vide **layout-desktop.psd** e **layout-mobile.psd**);
+1 - A página deve ser responsiva (vide **pag-poltrona-giratoria.psd** e **pag-poltrona-giratoria__MOBILE_.psd**);
 
 2 - Ela deve funcionar igualmente nos principais navegadores (Chrome, Firefox, Safari, IE(9,10, Edge));
 
