@@ -18,7 +18,8 @@ Você deve estruturar a landing page que está na pasta "LAYOUT" utilizando HTML
 Utilizando a nossa WebAPI (https://webapi.toqueacampainha.com.br/api/estoque/produtoprontaentrega?refid=) você deve criar uma consulta nossa lista de produtos disponibilizada no arquivo **produtos.txt** e dizer se o produto possui estoque disponível ou não.
 
 *Ps¹.: Existe estoque se a api retornar valor >= 1*
-*Ps².: Exemplo de cosulta com a api: https://webapi.toqueacampainha.com.br/api/estoque/produtoprontaentrega?refid=35977 *
+
+*Ps².: Exemplo de consulta com a api: (https://webapi.toqueacampainha.com.br/api/estoque/produtoprontaentrega?refid=35977)*
 
 **(utilize o arquivo pronta-entrega.html)**
 
