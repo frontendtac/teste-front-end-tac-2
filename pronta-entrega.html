@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <!-- Bootstrap-->
+    <link href="Content/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="Content/style.css" rel="stylesheet" media="screen" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/Script.js"></script>
+
+
+</head>
+
+
+<body ng-controller="myController">
+
+            <div class="container">
+                <br><br>
+
+                <table class="table table-striped table-bordered table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <th>CodigoProduto</th>
+                            <th>Produto</th>
+                            <th>Valor</th>
+                            <th>Categoria</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="success" ng-repeat="detalhe in detalhes" >
+                            <td>{{detalhe.idCodigoproduto}}</td>
+                            <td>{{detalhe.Produto}}</td>
+                            <td>{{detalhe.Valor}}</td>
+                            <td>{{detalhe.Categoria}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <form action="">
+                <div class="input-append">
+                     <input class="input-xlarge" type="text" placeholder="Consultar Estoque..." required>
+                     <button class="btn btn-primary  " ng-click="getAll(5)" >Verificar Estoque</button>
+                </div>
+            </form>
+
+
+
+            </div>
+
+
+
+            <!--javascript-->
+            <script src="http://code.jquery.com/jquery.js"></script>
+</body>
+</html>

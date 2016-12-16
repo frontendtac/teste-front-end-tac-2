@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: o;
+font-family: Arial;
+font-size: 100%;
+color: #555;
+}
+
+.container, header, section, h1, h2, img {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+header, section, {
+    margin-top: 5px;
+}
