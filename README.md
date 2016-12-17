@@ -1,4 +1,4 @@
-# Teste Front-end TAC - II
+﻿# Teste Front-end TAC - II
 Olá! Bem vindo ao teste front-end nv II da Toque a Campainha.
 
 O teste consiste em duas etapas:
@@ -35,3 +35,4 @@ Você pode utilizar javascript puro ou alguma biblioteca (jQuery, Zepto, etc).
 ## Como Participar
 Dê um fork nesse repositório e crie um pull request com seus arquivos (se preferir clonar e hospedá-los em algum lugar fique a vontade).
 Boa sorte! ;)
+
